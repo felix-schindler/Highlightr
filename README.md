@@ -1,5 +1,15 @@
 # Highlightr
 
+## Update JS lib to next version
+
+```
+git clone git@github.com:highlightjs/highlight.js.git
+cd highlight.js
+npm i
+node tools/build.js
+```
+
+## sth
 
 [![Version](https://img.shields.io/cocoapods/v/Highlightr.svg?style=flat)](http://cocoapods.org/pods/Highlightr)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -18,7 +28,7 @@ Takes your lame string with code and returns a NSAttributtedString with proper s
 ### Requirements
 - iOS 8.0+
 - macOS 10.10+
- 
+
 ### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
